@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee Order Form</title>
+	<link rel="stylesheet" type="text/css" href="order.css">
+</head>
+<body>
+	<h1>Coffee Order Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="coffee">Select your coffee:</label>
+		<select id="coffee" name="coffee">
+			<option value="cappuccino">Cappuccino</option>
+			<option value="latte">Latte</option>
+			<option value="espresso">Espresso</option>
+			<option value="americano">Americano</option>
+		</select><br><br>
+		<label for="size">Select your size:</label>
+		<input type="radio" id="small" name="size" value="small" checked>
+		<label for="small">Small</label>
+		<input type="radio" id="medium" name="size" value="medium">
+		<label for="medium">Medium</label>
+		<input type="radio" id="large" name="size" value="large">
+		<label for="large">Large</label><br><br>
+		<label for="extras">Select your extras:</label>
+		<input type="checkbox" id="milk" name="extras" value="milk">
+		<label for="milk">Milk</label>
+		<input type="checkbox" id="sugar" name="extras" value="sugar">
+		<label for="sugar">Sugar</label><br><br>
+		<input type="submit" value="Order Now">
+	</form>
+	<script src="order.js"></script>
+</body>
+</html>
