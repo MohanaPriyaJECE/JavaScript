@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+    <header>
+      <h1>Coffee Menu</h1>
+    </header>
+    <div id="menu">
+      <h2>Hot Drinks</h2>
+      <ul>
+        <li>
+          <h3>Espresso</h3>
+          <p>A shot of strong black coffee</p>
+          <span class="price">$2.00</span>
+          <button class="add-to-cart" data-name="Espresso" data-price="2.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Cappuccino</h3>
+          <p>Espresso with steamed milk and froth</p>
+          <span class="price">$4.00</span>
+          <button class="add-to-cart" data-name="Cappuccino" data-price="4.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Latte</h3>
+          <p>Espresso with steamed milk</p>
+          <span class="price">$4.00</span>
+          <button class="add-to-cart" data-name="Latte" data-price="4.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Americano</h3>
+          <p>Espresso with hot water</p>
+          <span class="price">$3.00</span>
+          <button class="add-to-cart" data-name="Americano" data-price="3.00">Add to Cart</button>
+        </li>
+      </ul>
+      <h2>Cold Drinks</h2>
+      <ul>
+        <li>
+          <h3>Iced Coffee</h3>
+          <p>Cold brewed coffee with ice</p>
+          <span class="price">$3.50</span>
+          <button class="add-to-cart" data-name="Iced Coffee" data-price="3.50">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Frappe</h3>
+          <p>Blended iced coffee with milk and ice cream</p>
+          <span class="price">$5.00</span>
+          <button class="add-to-cart" data-name="Frappe" data-price="5.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Iced Latte</h3>
+          <p>Espresso with cold milk and ice</p>
+          <span class="price">$4.50</span>
+          <button class="add-to-cart" data-name="Iced Latte" data-price="4.50">Add to Cart</button>
+        </li>
+      </ul>
+    </div>
+    <div id="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="cart-total">$0.00</span></p>
+    </div>
+    <script src="menu.js"></script>
+  </body>
+</html>
