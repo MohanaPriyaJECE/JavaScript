@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application Form</title>
+    <link rel="stylesheet" type="text/css" href="job_application.css">
+  </head>
+  <body>
+    <form id="job-application-form">
+      <h1>Job Application Form</h1>
+      
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Job Information</legend>
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title" required>
+
+        <label for="salary">Salary Requirement:</label>
+        <input type="number" id="salary" name="salary" required>
+
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date" name="start-date" required>
+
+        <label for="cover-letter">Cover Letter:</label>
+        <textarea id="cover-letter" name="cover-letter" rows="5" required></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="job_application.js"></script>
+  </body>
+</html>
